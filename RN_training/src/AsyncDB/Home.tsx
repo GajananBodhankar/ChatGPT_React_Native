@@ -46,7 +46,6 @@ const Home = ({navigation}: any) => {
   useEffect(() => {
     setBool(true);
     setData(tempData);
-    console.log(bool, data);
   }, [tempData]);
   const deleteItem = useCallback(
     async (index: any) => {
