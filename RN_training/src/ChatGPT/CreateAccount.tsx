@@ -75,14 +75,7 @@ const CreateAccount = ({navigation}: any) => {
             value={email}
             onChangeText={i => setEmail(i)}
           />
-          {/* <TextInput
-            placeholder="Password"
-            placeholderTextColor={'grey'}
-            style={createAccountStyle.txtIn}
-            value={password}
-            secureTextEntry={true}
-            onChangeText={j => setPwd(j)}
-          /> */}
+         
           <View style={createAccountStyle.pwdContainer}>
             <TextInput
               placeholder="Password"
@@ -131,14 +124,7 @@ const CreateAccount = ({navigation}: any) => {
               />
             </Pressable>
           </View>
-          {/* <TextInput
-            placeholder="Confirm password"
-            placeholderTextColor={'grey'}
-            style={createAccountStyle.txtIn}
-            value={cnf}
-            secureTextEntry={true}
-            onChangeText={j => setCnf(j)}
-          /> */}
+          
 
           <Pressable
             style={createAccountStyle.button}
